@@ -2,49 +2,56 @@
   font-family: "Ceremonius one";
   font-style: normal;
   font-weight: 400;
-  src: local("Ceremonius one"), url("../fonts/ceremoniusone.woff") format("woff");
+  src: url("../fonts/ceremoniusone.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Bravo RG";
   font-style: normal;
   font-weight: 400;
-  src: local("Bravo RG"), url("../fonts/bravorg.woff2") format("woff2"), url("../fonts/bravorg.woff") format("woff");
+  src: url("../fonts/bravorg.woff2") format("woff2"), url("../fonts/bravorg.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Harbell";
   font-style: normal;
   font-weight: 400;
-  src: local("Harbell"), url("../fonts/Harbell_Personal_Use.woff") format("woff");
+  src: url("../fonts/Harbell_Personal_Use.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Idealist Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("Idealist Sans"), url("../fonts/IdealistSans.woff") format("woff");
+  src: url("../fonts/IdealistSans.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "PTSans Narrow";
   font-style: normal;
   font-weight: 400;
-  src: local("PTSans Narrow"), url("../fonts/PTSansNarrow-Regular.woff") format("woff");
+  src: url("../fonts/PTSansNarrow-Regular.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "PFDinTextCondPro";
   font-style: normal;
   font-weight: 400;
-  src: local("PFDinTextCondPro"), url("../fonts/ofont.ru_PF-Din-Text-Cond-Pro.woff") format("woff");
+  src: url("../fonts/ofont.ru_PF-Din-Text-Cond-Pro.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "PFDinTextCondPro";
   font-style: normal;
   font-weight: 500;
-  src: local("PFDinTextCondPro"), url("../fonts/PFDinTextCondPro-Medium.woff") format("woff");
+  src: url("../fonts/PFDinTextCondPro-Medium.woff") format("woff");
+  font-display: swap;
 }
 
 /* pt-sans-regular - latin_cyrillic */
@@ -53,7 +60,8 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff") format("woff");
+  font-display: swap;
+  src: url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -63,7 +71,8 @@
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 400;
-  src: local("PT Sans Italic"), local("PTSans-Italic"), url("../fonts/pt-sans-v11-latin_cyrillic-italic.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-italic.woff") format("woff");
+  font-display: swap;
+  src: url("../fonts/pt-sans-v11-latin_cyrillic-italic.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -73,7 +82,8 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: local("PT Sans Bold"), local("PTSans-Bold"), url("../fonts/pt-sans-v11-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-700.woff") format("woff");
+  font-display: swap;
+  src: url("../fonts/pt-sans-v11-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -83,7 +93,8 @@
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 700;
-  src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url("../fonts/pt-sans-v11-latin_cyrillic-700italic.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-700italic.woff") format("woff");
+  font-display: swap;
+  src: url("../fonts/pt-sans-v11-latin_cyrillic-700italic.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-700italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
